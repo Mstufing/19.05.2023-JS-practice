@@ -1,4 +1,5 @@
 
+// todo ----- VERY EASY -----
 
 // ? Task #1
 // ? Array of Strings to Array of Numbers
@@ -162,4 +163,70 @@ console.log(trans4) // should output "motorcycles"
 //     let result = document.querySelector('.result');
 
 //     result.innerHTML = set(inp1.value.trim().split(" "));
+// }
+
+
+
+
+// todo ----- MEDIUM -----
+
+// ? Task #1
+// ? Hitting the Jackpot
+
+// function testJackpot(result) {
+//     return result.every(elem => elem === result[0]);
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector('.inp1');
+//     let result = document.querySelector('.result');
+
+//     result.innerHTML = testJackpot(inp1.value.trim().split(" "));
+// }
+
+
+// ? Task #2
+// ? Match the Last Item
+
+// function matchLastItem(arr) {
+//     let lastItem = arr.pop();
+//     return arr.join('') === lastItem ? true : false;
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector('.inp1');
+//     let result = document.querySelector('.result');
+
+//     result.innerHTML = matchLastItem(inp1.value.trim().split(" "));
+// }
+
+// ? Task #3
+// ? Remove Duplicates from an Array
+
+// function removeDups(arr) {
+//     return arr.filter((elem, index, array) => array.indexOf(elem) == index);
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector('.inp1');
+//     let result = document.querySelector('.result');
+
+//     result.innerHTML = removeDups(inp1.value.trim().split(" "));
+// }
+
+
+// ? Task #4
+// ? Multiplying Numbers in a String
+
+// function multiplyNums(nums) {
+//     if (nums.split(' ').length === 1)
+//         return Number(nums)
+//     return nums.split(',').reduce((acc, cur) => Number(acc) * Number(cur));
+
 // }
